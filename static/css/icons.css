@@ -1,0 +1,7 @@
+.enableflash_icon_flash_disabled {
+    background: url(/plugins/Enableflash/static/img/icon/flash_disabled.png) left center no-repeat !important;
+}
+
+.enableflash_icon_flash_enabled {
+    background: url(/plugins/Enableflash/static/img/icon/flash_enabled.png) left center no-repeat !important;
+}
