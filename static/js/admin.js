@@ -14,7 +14,7 @@ pimcore.plugin.broker.registerPlugin({postOpenDocument : function(doc){
                 doc.edit.getEditLink_original = doc.edit.getEditLink;
 
                 // will be overwritten later -> toggle
-                this.edit.enableFlash = true;
+                this.edit.enableFlash = false;
 
                 doc.edit.getEditLink = function() {
 
